@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+-webkit-box-shadow: ${1:inset} ${2:offset-x}px ${3:offset-y}px ${4:blur}px ${5:spread}px ${6:color};
+   -moz-box-shadow: ${1:inset} ${2:offset-x}px ${3:offset-y}px ${4:blur}px ${5:spread}px ${6:color};
+        box-shadow: ${1:inset} ${2:offset-x}px ${3:offset-y}px ${4:blur}px ${5:spread}px ${6:color};
+]]></content>
+  <description>CSS Box Shadow</description>
+  <tabTrigger>css-box</tabTrigger>
+  <scope>source.css, source.less, source.scss, source.stylus</scope>
+</snippet>

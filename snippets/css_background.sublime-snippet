@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+background:url(${1:image_path}) ${2:color} ${3:positionX} ${4:positionY} ${5:attachment};
+]]></content>
+  <description>CSS Background Options</description>
+  <tabTrigger>css-background</tabTrigger>
+  <scope>source.css, source.less, source.scss, source.stylus</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+-webkit-box-sizing: ${1:border-box};
+   -moz-box-sizing: ${1:border-box};
+        box-sizing: ${1:border-box};
+]]></content>
+  <description>CSS Border Box</description>
+  <tabTrigger>css-bbox</tabTrigger>
+  <scope>source.css, source.less, source.scss, source.stylus</scope>
+</snippet>

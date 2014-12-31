@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+-webkit-transition: ${1:property} ${2:duration} ${3:timing-function} ${4:delay};
+   -moz-transition: ${1:property} ${2:duration} ${3:timing-function} ${4:delay};
+    -ms-transition: ${1:property} ${2:duration} ${3:timing-function} ${4:delay};
+     -o-transition: ${1:property} ${2:duration} ${3:timing-function} ${4:delay};
+        transition: ${1:property} ${2:duration} ${3:timing-function} ${4:delay};
+]]></content>
+  <description>CSS Transition</description>
+  <tabTrigger>css-transition</tabTrigger>
+  <scope>source.css, source.less, source.scss, source.stylus</scope>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+@font-face {
+  font-family: '${1:font-name}';
+  src: url('${2:path/to/font/filename}.eot');
+  src: url('${2:path/to/font/filename}.eot?#iefix') format('embedded-opentype'),
+       url('${2:path/to/font/filename}.woff') format('woff'),
+       url('${2:path/to/font/filename}.ttf') format('truetype'),
+       url('${2:path/to/font/filename}.svg#nexa_boldregular') format('svg');
+  font-weight: ${3:100};
+  font-style: ${4:normal};
+}
+]]></content>
+  <description>CSS Font Face</description>
+  <tabTrigger>css-font-face</tabTrigger>
+  <scope>source.css, source.less, source.scss, source.stylus</scope>
+</snippet>
